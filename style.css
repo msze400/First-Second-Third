@@ -1,0 +1,61 @@
+h1 {
+    color: ;
+    text-decoration: underline;
+    display: flex;
+    justify-content: center;
+}
+
+#lists {
+    display: flex;
+    /* border: 2px gray solid; */
+    width: 100vw;
+    height: 75vh;
+    justify-content: space-around;
+}
+
+#lists > div {
+    border: 2px dodgerblue solid;
+    height: 70vh;
+    width: 25vw;
+    margin: 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.buttons {
+    width: 23vw;
+    height: 10vh;
+    margin: 5px;
+}
+
+.blue-button {
+    background: dodgerblue;
+}
+
+.blue-button:hover {
+    background: darkturquoise;
+}
+
+li {
+    list-style-type: none;
+    margin: 1rem;
+    font-size: 1rem;
+    border: 2px solid black;
+    padding: 1rem;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    font-weight: bold;
+    font-family: verdana;
+}
+
+ul {
+    padding-inline-start: 0px;
+}
+
+.selected {
+    background-color: orange;
+}
+.unselected {
+    background-color: white;
+}
